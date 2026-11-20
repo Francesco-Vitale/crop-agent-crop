@@ -1,0 +1,7 @@
+pcse==6.0.13
+d3rlpy==2.8.1
+gymnasium==1.0.0
+numpy==2.5.5
+matplotlib==3.11.2
+structlog
+pytest
