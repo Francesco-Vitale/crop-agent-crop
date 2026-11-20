@@ -1,8 +1,8 @@
-PY ?= python
+PY ?= python3
 .PHONY: install test reference partA partB plots all docker
 install:
-	pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
-	pip install -r requirements.txt
+	$(PY) -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+	$(PY) -m pip install -r requirements.txt
 test:
 	$(PY) -m pytest -q tests
 partA:

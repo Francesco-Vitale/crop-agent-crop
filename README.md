@@ -53,7 +53,7 @@ Plain reading:
 ## Reproduce
 
 ```bash
-make install     # PyTorch 2.15.0 CPU wheel first, then pinned requirements
+make install     # PyTorch 2.8.0 CPU wheel first, then pinned requirements
 make test        # 10 tests, about 30 s
 make all         # tests, reference plans, Part A (5 seeds), Part B (+ sensitivity), plots
 # or: make docker
